@@ -1,13 +1,13 @@
-#The Arduino Nano Sound Visualizer
+# Arduino Nano Sound Visualizer
 
-An Arduino Nano, MAX4466 microphone, and 8x8 WS2812B LED matrix are used in this 3D-printed sound visualizer that responds to background noise.
+A 3D-printed sound visualizer that reacts to ambient sound using an Arduino Nano, MAX4466 microphone, and 8x8 WS2812B LED matrix.
 
-#Features
+## Features
 
-Bar Graph, Spectrum Analyzer, Ripple Effect, and Equalizer Blocks are the four visualization modes.
-switches between modes automatically every eight seconds.
-Microphone gain that may be adjusted with a MAX4466 potentiometer
-Hardware in a small 3D-printed box with engraved identifying well hopefully idk because my 3d modeling skills are shit
+- 4 visualization modes: Bar Graph, Spectrum Analyzer, Ripple Effect, Equalizer Blocks
+- Auto-cycles between modes every 8 seconds
+- Adjustable microphone gain (via MAX4466 potentiometer)
+- Compact 3D-printed enclosure with engraved labels
 
 ## Hardware
 
