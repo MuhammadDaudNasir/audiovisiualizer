@@ -1,0 +1,66 @@
+WIRING DIAGRAM - Arduino Nano Sound Visualizer
+===============================================
+
+                        Arduino Nano
+                       +----------------+
+                       |                |
+    LED Matrix  ------ | D6              |
+    (DIN)             |                |
+                       | A0         D13 | -- (optional LED)
+                       |                |
+    MAX4466   ------   |                |
+    (OUT)              |                |
+                       +----------------+
+                            |     |
+                       ----       ----
+                      GND         5V
+
+    +5V (from Nano) ----+----> MAX4466 VCC
+                         |
+    GND (from Nano) ----+----> MAX4466 GND
+                         |
+    A0 (from Nano) ----+----> MAX4466 OUT
+
+    +5V (from Nano) ----+----> LED Matrix VCC
+                         |
+    GND (from Nano) ----+----> LED Matrix GND
+                         |
+    D6 (from Nano) ----+----> LED Matrix DIN
+
+
+PIN CONNECTIONS SUMMARY
+=======================
+
+Component           | Arduino Nano Pin
+-------------------|-----------------
+LED Matrix DIN     | D6
+LED Matrix VCC     | 5V
+LED Matrix GND     | GND
+MAX4466 OUT        | A0
+MAX4466 VCC        | 5V
+MAX4466 GND        | GND
+
+
+PANEL MOUNT JACKS
+=================
+
+3.5mm Audio Jack:
+  - Tip: Not connected (or to external audio source)
+  - Ring: Not connected  
+  - Sleeve: GND
+
+DC Power Jack:
+  - Center (+): VIN on Arduino (for external 5V)
+  - Outer (-): GND
+
+
+EXTERNAL POWER (OPTIONAL)
+=========================
+
+If using external 5V power supply:
+  - DC Jack Center (+) --> Arduino VIN
+  - DC Jack Outer (-) --> Arduino GND
+
+Or power via USB:
+  - Connect USB cable to Arduino
+  - Powers everything from computer/phone charger
