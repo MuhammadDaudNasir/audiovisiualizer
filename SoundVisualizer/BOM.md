@@ -12,7 +12,7 @@
 | 1 | USB Cable (Mini-B) | Programming + power | $2-3 |
 | 1 | 5V 2A Power Supply | Powers Arduino + LEDs | $3-5 |
 
-## Hardware
+## Hardware will buy myself (dont want to wast HC's money of mundane things)
 | Qty | Component | Purpose | Est. Cost |
 |-----|-----------|---------|-----------|
 | 4 | M3x8mm Screws | Secures lid | $1-2 |
@@ -22,11 +22,11 @@
 | 1 | SPDT Toggle Switch | Power on/off | $1-2 |
 | 4 | Rubber Feet | Anti-slip | $1-2 |
 
-## 3D Printed Parts
+## 3D Printed Parts (total actually ended up being 3 bucks because i'm using jlc3dp for the first time)
 | Qty | Part | Est. Cost |
 |-----|------|-----------|
 | 1 | Main Body | $5-10 |
 | 1 | Lid | $3-5 |
 | 1 | Microphone Grille | $2-3 |
 
-## Total Cost: $33-61
+## Total Cost: $33-50
