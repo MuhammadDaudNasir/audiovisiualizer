@@ -12,7 +12,7 @@
 | 1 | USB Cable (Mini-B) | Programming + power | $2-3 |
 | 1 | 5V 2A Power Supply | Powers Arduino + LEDs | $3-5 |
 
-## Hardware
+## Hardware (that IM providing for myself)
 | Qty | Component | Purpose | Est. Cost |
 |-----|-----------|---------|-----------|
 | 4 | M3x8mm Screws | Secures lid | $1-2 |
@@ -23,10 +23,11 @@
 | 4 | Rubber Feet | Anti-slip | $1-2 |
 
 ## 3D Printed Parts
-| Qty | Part | Est. Cost |
-|-----|------|-----------|
-| 1 | Main Body | $5-10 |
-| 1 | Lid | $3-5 |
-| 1 | Microphone Grille | $2-3 |
+| Qty | Part |
+|-----|------|
+| 1 | Main Body 
+| 1 | Lid 
+| 1 | Microphone Grille 
+total price : $3.23
 
-## Total Cost: $33-61
+## Total Cost: $33-61 but ended up being around 32 bucks
